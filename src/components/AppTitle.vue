@@ -5,11 +5,17 @@
 </script>
 
 <template>
-        
-        <h1>La mia prima app con vite!</h1>
+        <div id="title">
+            <h1><i>La mia prima app con Vite!</i></h1>
+        </div>
 
 </template>
 
 <style>
+    #title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 </style>
